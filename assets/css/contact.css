@@ -1,0 +1,46 @@
+.bg-form {
+    background-color: rgb(52, 58, 64, 0.7) !important;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 0.3rem;
+}
+
+footer{
+    bottom: 0;
+    position: fixed;
+}
+
+@media only screen and (max-width: 760px) {
+    .gap {
+        padding-bottom: 20px;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .title {
+        width: 100%;
+    }
+
+    footer {
+        position: absolute;
+        padding-bottom: 1px;
+    }
+    article{
+        width: 100%
+    }
+
+}
+
+@media only screen and (min-width: 760px) and (max-width: 1280px) {
+    .gap {
+        padding-bottom: 20px;
+    }
+
+    footer {
+        position: absolute;
+        padding-bottom: 1px;
+    }
+
+}

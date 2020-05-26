@@ -1,0 +1,35 @@
+footer {
+    text-align: center;
+    color: #fff;
+    background-color: rgb(52, 58, 64);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 1px;
+}
+
+@media only screen and (max-width: 760px) {
+    .gap {
+        padding-bottom: 20px;
+    }
+
+    footer {
+        position: fixed;
+        padding-bottom: 1px;
+    }
+
+}
+
+@media only screen and (min-width: 760px) and (max-width: 1280px) {
+    .gap {
+        padding-bottom: 20px;
+    }
+
+    footer {
+        position: fixed;
+        padding-bottom: 1px;
+    }
+
+}
+
